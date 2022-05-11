@@ -1,0 +1,54 @@
+html {
+  --baseColor: #8e3200;
+  --secondaryColor: #d7a86e;
+  --thirdColor: #a64b2a;
+  --fourthColor: #ffebc1;
+  --borderRadius: 5px 15px;
+  --importantFontSize: 25px;
+  --boxShadow: -5px 5px 3px 5px var(--baseColor);
+  --main-font: Arial, Helvetica, sans-serif;
+  --secondary-font: "Courier New", Courier, monospace;
+}
+
+.box {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border-radius: var(--borderRadius);
+  border: 1px solid #000;
+}
+
+.base {
+  background-color: var(--baseColor);
+  color: var(--fourthColor);
+}
+
+.important {
+  background-color: var(--secondaryColor);
+  color: var(--baseColor);
+  font-size: var(--importantFontSize);
+}
+
+.warning {
+  background-color: var(--thirdColor);
+  color: var(--fourthColor);
+  font-size: var(--importantFontSize);
+}
+
+.principalFont {
+  font-family: var(--main-font);
+  color: var(--baseColor);
+}
+
+.secondaryFont {
+  font-family: var(--secondary-font);
+  color: var(--baseColor);
+}
+
+.shadow {
+  color: var(--baseColor);
+  border-color: var(--baseColor);
+  box-shadow: var(--boxShadow);
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

@@ -1,0 +1,170 @@
+body {
+  flex-direction: column;
+  display: flex;
+}
+
+@media screen and (max-width: 860px) {
+  body {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+}
+
+.container-1 {
+  justify-content: center;
+  display: flex;
+}
+
+.container-1 .base-color {
+  background-color: red;
+}
+
+.container-1 .darken-1 {
+  background-color: #c00;
+}
+
+.container-1 .lighten-1 {
+  background-color: #f33;
+}
+
+.container-1 .darken-2 {
+  background-color: #900;
+}
+
+.container-1 .lighten-2 {
+  background-color: #f66;
+}
+
+.container-1 .darken-3 {
+  background-color: #600;
+}
+
+.container-1 .lighten-3 {
+  background-color: #f99;
+}
+
+.container-1 .darken-4 {
+  background-color: #300;
+}
+
+.container-1 .lighten-4 {
+  background-color: #fcc;
+}
+
+@media screen and (max-width: 860px) {
+  .container-1 {
+    flex-direction: column;
+  }
+}
+
+.container-2 {
+  justify-content: center;
+  display: flex;
+}
+
+.container-2 .base-color {
+  background-color: green;
+}
+
+.container-2 .darken-1 {
+  background-color: #004d00;
+}
+
+.container-2 .lighten-1 {
+  background-color: #00b300;
+}
+
+.container-2 .darken-2 {
+  background-color: #001a00;
+}
+
+.container-2 .lighten-2 {
+  background-color: #00e600;
+}
+
+.container-2 .darken-3 {
+  background-color: #000;
+}
+
+.container-2 .lighten-3 {
+  background-color: #1aff1a;
+}
+
+.container-2 .darken-4 {
+  background-color: #000;
+}
+
+.container-2 .lighten-4 {
+  background-color: #4dff4d;
+}
+
+@media screen and (max-width: 860px) {
+  .container-2 {
+    flex-direction: column;
+  }
+}
+
+.container-3 {
+  justify-content: center;
+  display: flex;
+}
+
+.container-3 .base-color {
+  background-color: #00f;
+}
+
+.container-3 .darken-1 {
+  background-color: #00c;
+}
+
+.container-3 .lighten-1 {
+  background-color: #33f;
+}
+
+.container-3 .darken-2 {
+  background-color: #009;
+}
+
+.container-3 .lighten-2 {
+  background-color: #66f;
+}
+
+.container-3 .darken-3 {
+  background-color: #006;
+}
+
+.container-3 .lighten-3 {
+  background-color: #99f;
+}
+
+.container-3 .darken-4 {
+  background-color: #003;
+}
+
+.container-3 .lighten-4 {
+  background-color: #ccf;
+}
+
+@media screen and (max-width: 860px) {
+  .container-3 {
+    flex-direction: column;
+  }
+}
+
+.box {
+  border: 1px solid #000;
+  margin: 2px;
+  padding: 10px;
+}
+
+.color-box-text {
+  color: #fff;
+  font-style: bold;
+}
+
+/*# sourceMappingURL=index.4a508c1d.css.map */

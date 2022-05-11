@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #49beb7;
+  justify-content: space-between;
+  display: flex;
+}
+
+.menuItem {
+  color: #fff;
+  background-color: #49beb7;
+  padding: 10px;
+}
+
+.menuItem:active {
+  background-color: #085f63;
+}
+
+@media screen and (max-width: 400px) {
+  .menu {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .menuItem {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
